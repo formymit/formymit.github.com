@@ -4,7 +4,7 @@
   <title><![CDATA[大树的技术博客]]></title>
   <link href="http://formymit.github.io/atom.xml" rel="self"/>
   <link href="http://formymit.github.io/"/>
-  <updated>2016-07-06T00:04:53+08:00</updated>
+  <updated>2016-07-06T00:07:41+08:00</updated>
   <id>http://formymit.github.io/</id>
   <author>
     <name><![CDATA[刘涛]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我的第二篇博客]]></title>
+    <link href="http://formymit.github.io/blog/2016/07/06/wo-de-di-er-pian-bo-ke/"/>
+    <updated>2016-07-06T00:07:12+08:00</updated>
+    <id>http://formymit.github.io/blog/2016/07/06/wo-de-di-er-pian-bo-ke</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[我的第一篇博文]]></title>
