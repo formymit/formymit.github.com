@@ -4,7 +4,7 @@
   <title><![CDATA[大树的技术博客]]></title>
   <link href="http://formymit.github.io/atom.xml" rel="self"/>
   <link href="http://formymit.github.io/"/>
-  <updated>2016-07-06T20:58:09+08:00</updated>
+  <updated>2016-07-06T21:01:46+08:00</updated>
   <id>http://formymit.github.io/</id>
   <author>
     <name><![CDATA[刘涛]]></name>
@@ -29,6 +29,10 @@ class Fixnum
   end
 end
 &lsquo;&rsquo;'</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Awesome code snippet</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
