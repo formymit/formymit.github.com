@@ -4,7 +4,7 @@
   <title><![CDATA[大树的技术博客]]></title>
   <link href="http://formymit.github.io/atom.xml" rel="self"/>
   <link href="http://formymit.github.io/"/>
-  <updated>2016-07-06T11:08:41+08:00</updated>
+  <updated>2016-07-06T11:11:46+08:00</updated>
   <id>http://formymit.github.io/</id>
   <author>
     <name><![CDATA[刘涛]]></name>
@@ -18,7 +18,8 @@
     <link href="http://formymit.github.io/blog/2016/07/06/wo-de-di-er-pian-bo-ke/"/>
     <updated>2016-07-06T00:07:12+08:00</updated>
     <id>http://formymit.github.io/blog/2016/07/06/wo-de-di-er-pian-bo-ke</id>
-    <content type="html"><![CDATA[<p>insert image test:</p>
+    <content type="html"><![CDATA[<p>insert image test:
+<img src="http://placekitten.com/890/280"></p>
 ]]></content>
   </entry>
   
