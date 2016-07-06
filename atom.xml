@@ -4,7 +4,7 @@
   <title><![CDATA[大树的技术博客]]></title>
   <link href="http://formymit.github.io/atom.xml" rel="self"/>
   <link href="http://formymit.github.io/"/>
-  <updated>2016-07-06T11:11:46+08:00</updated>
+  <updated>2016-07-06T20:58:09+08:00</updated>
   <id>http://formymit.github.io/</id>
   <author>
     <name><![CDATA[刘涛]]></name>
@@ -19,7 +19,16 @@
     <updated>2016-07-06T00:07:12+08:00</updated>
     <id>http://formymit.github.io/blog/2016/07/06/wo-de-di-er-pian-bo-ke</id>
     <content type="html"><![CDATA[<p>insert image test:
-<img src="http://placekitten.com/890/280"></p>
+<img src="http://placekitten.com/890/280">
+why is it not working? for the url of &ldquo;/User/iBoy/DeskTop/apache_test&rdquo;?
+it works without &ldquo;DestTop&rdquo;  &ndash; not the system of mine?
+&lsquo;&rsquo;&lsquo;
+class Fixnum
+  def prime?
+    ('1&rsquo; * self) !~ /^1?$|^(11+?)\1+$/
+  end
+end
+&lsquo;&rsquo;'</p>
 ]]></content>
   </entry>
   
