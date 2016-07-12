@@ -9,8 +9,8 @@
   <meta name="author" content="刘涛">
 
   
-  <meta name="description" content="insert image test: why is it not working? for the url of &ldquo;/User/iBoy/DeskTop/apache_test&rdquo;?
-it works without &ldquo;DestTop&rdquo; &ndash &hellip;">
+  <meta name="description" content="Xcode 7 创建新项目用到 UIWebView 发送请求时，报下面的错：
+“App Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure. Temporary &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +66,46 @@ it works without &ldquo;DestTop&rdquo; &ndash &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/07/12/ioswang-luo-xue-xi/">iOS网络学习</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-07-12T23:19:45+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>12</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>11:19 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Xcode 7 创建新项目用到 UIWebView 发送请求时，报下面的错：
+“App Transport Security has blocked a cleartext HTTP (<a href="http://">http://</a>) resource load since it is insecure. Temporary exceptions can be configured via your app’s Info.plist file”</p>
+
+<p>找查资料后发现，新特性要求App内访问网络请求，要采用 HTTPS 协议。</p>
+
+<p>但是现在公司的项目使用的是 HTTP 协议，使用私有加密方式保证数据安全。现在也不能马上改成 HTTPS 协议传输。</p>
+
+<p>最终找到以下解决办法：</p>
+
+<p>1、在Info.plist中添加 NSAppTransportSecurity 类型 Dictionary ;</p>
+
+<p>2、在 NSAppTransportSecurity 下添加 NSAllowsArbitraryLoads 类型Boolean ,值设为 YES;</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -157,6 +197,10 @@ it works without &ldquo;DestTop&rdquo;  &ndash; not the system of mine?</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/07/12/ioswang-luo-xue-xi/">iOS网络学习</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/07/06/wo-de-di-er-pian-bo-ke/">我的第二篇博客</a>

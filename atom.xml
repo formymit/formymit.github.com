@@ -4,7 +4,7 @@
   <title><![CDATA[大树的技术博客]]></title>
   <link href="http://formymit.github.io/atom.xml" rel="self"/>
   <link href="http://formymit.github.io/"/>
-  <updated>2016-07-06T21:06:55+08:00</updated>
+  <updated>2016-07-12T23:21:09+08:00</updated>
   <id>http://formymit.github.io/</id>
   <author>
     <name><![CDATA[刘涛]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iOS网络学习]]></title>
+    <link href="http://formymit.github.io/blog/2016/07/12/ioswang-luo-xue-xi/"/>
+    <updated>2016-07-12T23:19:45+08:00</updated>
+    <id>http://formymit.github.io/blog/2016/07/12/ioswang-luo-xue-xi</id>
+    <content type="html"><![CDATA[<p>Xcode 7 创建新项目用到 UIWebView 发送请求时，报下面的错：
+“App Transport Security has blocked a cleartext HTTP (<a href="http://">http://</a>) resource load since it is insecure. Temporary exceptions can be configured via your app’s Info.plist file”</p>
+
+<p>找查资料后发现，新特性要求App内访问网络请求，要采用 HTTPS 协议。</p>
+
+<p>但是现在公司的项目使用的是 HTTP 协议，使用私有加密方式保证数据安全。现在也不能马上改成 HTTPS 协议传输。</p>
+
+<p>最终找到以下解决办法：</p>
+
+<p>1、在Info.plist中添加 NSAppTransportSecurity 类型 Dictionary ;</p>
+
+<p>2、在 NSAppTransportSecurity 下添加 NSAllowsArbitraryLoads 类型Boolean ,值设为 YES;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[我的第二篇博客]]></title>
