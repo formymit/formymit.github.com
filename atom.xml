@@ -4,7 +4,7 @@
   <title><![CDATA[大树的技术博客]]></title>
   <link href="http://formymit.github.io/atom.xml" rel="self"/>
   <link href="http://formymit.github.io/"/>
-  <updated>2016-07-12T23:21:09+08:00</updated>
+  <updated>2016-07-17T23:35:00+08:00</updated>
   <id>http://formymit.github.io/</id>
   <author>
     <name><![CDATA[刘涛]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[读一只猫博客有感]]></title>
+    <link href="http://formymit.github.io/blog/2016/07/17/du-%5B%3F%5D-zhi-mao-bo-ke-you-gan/"/>
+    <updated>2016-07-17T23:33:43+08:00</updated>
+    <id>http://formymit.github.io/blog/2016/07/17/du-[?]-zhi-mao-bo-ke-you-gan</id>
+    <content type="html"><![CDATA[<p>今天读了iOS的，一只猫在博文的最后一段写的文字“希望中国的开发者能够在 Swift 这个新时代创造出更多世界级的框架，让这些框架能帮助全球的开发者一起构建更优秀的软件。”；也许这是自己努力的目标。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iOS网络学习]]></title>
